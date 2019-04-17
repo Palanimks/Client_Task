@@ -5,6 +5,7 @@ Whoever clone’s the repo, just by running a single command should be able to g
 Prerequisite:
 -------------
 1.Required Linux Operating system
+
 2.Docker should be installed on the Operating system
 
 Procedure to execute the command
@@ -17,7 +18,7 @@ step3:Enter the Movie name
 
 Output
 ------
-Now we can get the movie Tittle and Rotten Tomato rating
+Once we enter the movie name in the execute command,Now we will  get the movie Tittle and Rotten Tomato rating
 
 How it works
 ------------
