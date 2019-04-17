@@ -14,7 +14,7 @@ Step1:Clone the Repo from the https://github.com/Palanimks/Client_Task.git
 
 Step2:execute the ./script.sh file 
 
-step3:Enter the Movie name 
+Step3:Enter the Movie name 
 
 Output
 ------
@@ -22,11 +22,11 @@ Once we enter the movie name in the execute command,Now we will  get the movie T
 
 How it works
 ------------
-step1:once execute the ./script.sh file it wil create the docker image.
+Step1:once execute the ./script.sh file it wil create the docker image.
 
 Step2:By using COPY module, will copy the ./find.sh to container from the local directory.
 
-step3:now container will create and will execute the ./find.sh script
+Step3:now container will create and will execute the ./find.sh script
 
 Author
 ------
