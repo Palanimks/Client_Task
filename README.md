@@ -1,30 +1,29 @@
 # Client_Task
 
-Linux
------
-Have to keep below 3 files in the same work directory
-1.Dockerfile
-2.test.sh
-3.palani.sh
+Client Requirement
+------------------
 
-Shell Script - palani.sh
---------------------------
+Whoever clone’s the repo, just by running a single command should be able to get the rating of the specified movie from http://www.omdbapi.com/
 
-->first passing the movie name and it will get read
-->passing movie name assign to variable and it will search in the APIURL
-->by using jq we will filterized the Title and Ratings value
+Prerequisite:
+-------------
+1.Required Linux Operating system
+2.Docker should be installed on the Operating system
 
-Docker
--------
+Procedure to execute the command
+---------------------------------
+Step1:Clone the Repo from the https://github.com/Palanimks/Client_Task.git
+Step2:execute the ./test.sh file
+step3:Enter the Movie name
+Step4:Now we can get the movie Tittle and Rotten Tomato rating
 
-->install wget curl vim git jq 
+How it works
+------------
+step1:once execute the ./test.sh file it wil create the docker image.
+Step2:By using COPY module, will copy the ./palani.sh to container from the local directory.
+step3:now container will create and will execute the ./palani.sh script
 
-test.sh
---------
-->it will build the image in the name of palani
-->by using the sed command will divide the image id and it will get print
-->by using the image will create the container
-->while launching the container automatically it will run the shell script of palani.sh
-->enter the movie name
-->now we will get the Movie Name & Rotton tomatoes
-->finally container will get delete
+Author
+------
+Palanivel M
+
