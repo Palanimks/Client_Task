@@ -10,9 +10,14 @@ Prerequisite:
 Procedure to execute the command
 ---------------------------------
 Step1:Clone the Repo from the https://github.com/Palanimks/Client_Task.git
+
 Step2:execute the ./script.sh file 
+
 step3:Enter the Movie name 
-Step4:Now we can get the movie Tittle and Rotten Tomato rating
+
+Output
+------
+Now we can get the movie Tittle and Rotten Tomato rating
 
 How it works
 ------------
