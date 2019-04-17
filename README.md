@@ -22,7 +22,9 @@ Now we can get the movie Tittle and Rotten Tomato rating
 How it works
 ------------
 step1:once execute the ./script.sh file it wil create the docker image.
+
 Step2:By using COPY module, will copy the ./find.sh to container from the local directory.
+
 step3:now container will create and will execute the ./find.sh script
 
 Author
