@@ -8,6 +8,8 @@ Prerequisite:
 
 2.Docker should be installed on the Operating system
 
+3.Required API Key for to access the omdbapi Database
+
 Procedure to execute the command
 ---------------------------------
 Step1:Clone the Repo from the https://github.com/Palanimks/Client_Task.git
