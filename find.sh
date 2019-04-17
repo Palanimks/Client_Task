@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "enter the movie name: "
-read movie
+#echo "enter the movie name: "
+read -p "Enter the movie name:" movie
 #APIURL="http://www.omdbapi.com/?t=$movie&apikey=bc2a4edf"
 APIURL="http://www.omdbapi.com/?apikey=bc2a4edf&t=$movie"
 #echo $APIURL
